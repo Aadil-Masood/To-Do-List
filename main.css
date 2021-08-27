@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  background-image: url(https://source.unsplash.com/1600x900/?nature);
+}
+.heading {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 30px;
+  background-color: darkgrey;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  background-image: url(https://source.unsplash.com/1600x900/?yellow);
+  opacity: 0.8;
+}
+
+.box {
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 10px 0px;
+  font-family: "Syncopate", sans-serif;
+}
+.box input {
+  padding: 5px;
+  border-style: none;
+  background-color: whitesmoke;
+  font-size: 8px;
+  font-family: "Press Start 2P", cursive;
+  align-content: center;
+}
+.button {
+  background-color: black;
+  color: whitesmoke;
+  padding: 3px 9px;
+  font-size: 20px;
+  border-radius: 10%;
+  border-style: none;
+}
+
+li {
+  list-style: none;
+  margin: 1px 20px;
+  padding: 20px 20px;
+  background-color: whitesmoke;
+  position: relative;
+  font-family: "Press Start 2P", cursive;
+  opacity: 0.8;
+  font-size: 10px;
+}
+li:hover {
+  background-color: gray;
+}
+
+.reload {
+  position: sticky;
+  background-color: transparent;
+  padding: 0px;
+  font-size: 30px;
+  border-style: none;
+  color: white;
+  text-align: center;
+  padding: 2.6px 7px 2.4px 7px;
+  font-size: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.close {
+  color: whitesmoke;
+  padding: 1px;
+  background-color: red;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 800px) {
+  .heading {
+    margin: 20px 600px;
+    padding: 20px 20px;
+  }
+
+  .box {
+    text-align: left;
+    margin: 20px 600px;
+    padding-left: 50px;
+  }
+
+  .box input {
+    padding: 10px;
+    padding-left: 0%;
+    align-items: left;
+  }
+  .button {
+    padding: 7px 15px;
+    font-size: 25px;
+    border-radius: 10%;
+    margin: 0px 20px;
+  }
+
+  li {
+    list-style: none;
+    margin: 1px 600px;
+    padding: 20px 20px;
+  }
+
+  .reload {
+    padding: 9.6px 15px 9.4px 15px;
+  }
+}
